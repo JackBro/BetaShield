@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Project Singleton">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Anticheat Singleton">
+      <UniqueIdentifier>{7b28962b-a2fc-4ab3-a4a6-924cf63e1ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{a4a1e95c-bd08-47e0-9589-0a432223967c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\NktHookLib">
+      <UniqueIdentifier>{313230fc-eec3-4b20-9335-bc3dc24482f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anticheat Singleton\Test">
+      <UniqueIdentifier>{e33d3f5d-f1d3-441f-9558-7f2fea709f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anticheat Modules">
+      <UniqueIdentifier>{ef69dce6-93a9-4600-8c3b-80b2913e64c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anticheat Modules\Log">
+      <UniqueIdentifier>{938b10dc-ab1d-4643-965f-8375a0434216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anticheat Modules\API">
+      <UniqueIdentifier>{919a0834-8774-4722-bae6-5ab2e7b6fc21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anticheat Modules\Scan">
+      <UniqueIdentifier>{8f5479ae-75df-4658-893f-eac6bc2bc011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anticheat Modules\Hooks">
+      <UniqueIdentifier>{44795cf6-ede3-4d39-ad98-3f291ca01503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Hash">
+      <UniqueIdentifier>{ff0e8b7a-f178-4c56-b485-cf31d962b8fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anticheat Modules\Access">
+      <UniqueIdentifier>{3d72ebed-8ec0-456c-9036-bef188ef6b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internet">
+      <UniqueIdentifier>{a5c926e0-9a57-416f-8788-903e25a5f54a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anticheat Modules\Plugin">
+      <UniqueIdentifier>{6aa3a65f-4a15-4a9d-87e1-995b43345df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anticheat Modules\GameSpecific">
+      <UniqueIdentifier>{ded251e2-e7de-4384-9449-b4352bedee95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anticheat Singleton\MiniDump">
+      <UniqueIdentifier>{0a7ce445-03b4-4ac8-9616-cc94d963ece4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProjectMain.h">
+      <Filter>Project Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Anticheat_Index.h">
+      <Filter>Project Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Services.h">
+      <Filter>Project Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>Anticheat Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Anticheat Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="LDasm.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="dirent.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NktHookLib.h">
+      <Filter>Common\NktHookLib</Filter>
+    </ClInclude>
+    <ClInclude Include="NktHookWrapper.h">
+      <Filter>Common\NktHookLib</Filter>
+    </ClInclude>
+    <ClInclude Include="BasePointers.h">
+      <Filter>Anticheat Modules\API</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicWinapi.h">
+      <Filter>Anticheat Modules\API</Filter>
+    </ClInclude>
+    <ClInclude Include="CLog.h">
+      <Filter>Anticheat Modules\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>Anticheat Singleton\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Anticheat Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Scan.h">
+      <Filter>Anticheat Modules\Scan</Filter>
+    </ClInclude>
+    <ClInclude Include="DirFuncs.h">
+      <Filter>Anticheat Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Anticheat Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Threads.h">
+      <Filter>Anticheat Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC32.h">
+      <Filter>Common\Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="Md5.h">
+      <Filter>Common\Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="XOR.h">
+      <Filter>Common\Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="Access.h">
+      <Filter>Anticheat Modules\Access</Filter>
+    </ClInclude>
+    <ClInclude Include="ApiHooks.h">
+      <Filter>Anticheat Modules\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug.h">
+      <Filter>Anticheat Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiBreakpoint.h">
+      <Filter>Anticheat Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Watchdog.h">
+      <Filter>Anticheat Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Metin2_Pack_HashList.h">
+      <Filter>Anticheat Modules\GameSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="Metin2_Plugin.h">
+      <Filter>Anticheat Modules\GameSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="InternetAPI.h">
+      <Filter>Internet</Filter>
+    </ClInclude>
+    <ClInclude Include="File_verification.h">
+      <Filter>Anticheat Modules\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="Base64.h">
+      <Filter>Common\Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniDump.h">
+      <Filter>Anticheat Singleton\MiniDump</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtectorSupport.h">
+      <Filter>Project Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="VersionHelpers.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ProjectMain.cpp">
+      <Filter>Project Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.cpp">
+      <Filter>Anticheat Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Anticheat Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="NktHookWrapper.cpp">
+      <Filter>Common\NktHookLib</Filter>
+    </ClCompile>
+    <ClCompile Include="BasePointers.cpp">
+      <Filter>Anticheat Modules\API</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicWinapi.cpp">
+      <Filter>Anticheat Modules\API</Filter>
+    </ClCompile>
+    <ClCompile Include="CLog.cpp">
+      <Filter>Anticheat Modules\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Anticheat Singleton\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="TestFunctions.cpp">
+      <Filter>Anticheat Singleton\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Anticheat Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Anticheat Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ApfnHooks.cpp">
+      <Filter>Anticheat Modules\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Threads.cpp">
+      <Filter>Anticheat Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadEnumerator.cpp">
+      <Filter>Anticheat Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="DirFuncs.cpp">
+      <Filter>Anticheat Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadScan.cpp">
+      <Filter>Anticheat Modules\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="CRC32.cpp">
+      <Filter>Common\Hash</Filter>
+    </ClCompile>
+    <ClCompile Include="SectionScan.cpp">
+      <Filter>Anticheat Modules\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="DriverScan.cpp">
+      <Filter>Anticheat Modules\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="DigSignScan.cpp">
+      <Filter>Anticheat Modules\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralAccess.cpp">
+      <Filter>Anticheat Modules\Access</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfInlineHooks.cpp">
+      <Filter>Anticheat Modules\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="ProberCallback.cpp">
+      <Filter>Anticheat Modules\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLNotificationCallback.cpp">
+      <Filter>Anticheat Modules\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug.cpp">
+      <Filter>Anticheat Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="SetDACL.cpp">
+      <Filter>Anticheat Modules\Access</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumerateHandles.cpp">
+      <Filter>Anticheat Modules\Access</Filter>
+    </ClCompile>
+    <ClCompile Include="AdjustPrivileges.cpp">
+      <Filter>Anticheat Modules\Access</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfThreads.cpp">
+      <Filter>Anticheat Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionHandlers.cpp">
+      <Filter>Anticheat Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="ManualMap.cpp">
+      <Filter>Anticheat Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiBreakpoint.cpp">
+      <Filter>Anticheat Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="DNSScan.cpp">
+      <Filter>Anticheat Modules\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiAnalysis.cpp">
+      <Filter>Anticheat Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="SectionChecksumScan.cpp">
+      <Filter>Anticheat Modules\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryScan.cpp">
+      <Filter>Anticheat Modules\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiMacro.cpp">
+      <Filter>Anticheat Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSignScan.cpp">
+      <Filter>Anticheat Modules\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiVirtual.cpp">
+      <Filter>Anticheat Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Wow64HookScan.cpp">
+      <Filter>Anticheat Modules\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="Watchdog.cpp">
+      <Filter>Anticheat Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Metin2_Plugin.cpp">
+      <Filter>Anticheat Modules\GameSpecific</Filter>
+    </ClCompile>
+    <ClCompile Include="InternetAPI.cpp">
+      <Filter>Internet</Filter>
+    </ClCompile>
+    <ClCompile Include="License.cpp">
+      <Filter>Internet</Filter>
+    </ClCompile>
+    <ClCompile Include="File_verification.cpp">
+      <Filter>Anticheat Modules\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="Screenshot.cpp">
+      <Filter>Anticheat Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ElevationAccess.cpp">
+      <Filter>Anticheat Modules\Access</Filter>
+    </ClCompile>
+    <ClCompile Include="SetMitigationPolicy.cpp">
+      <Filter>Anticheat Modules\Access</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniDump.cpp">
+      <Filter>Anticheat Singleton\MiniDump</Filter>
+    </ClCompile>
+    <ClCompile Include="InitCheck.cpp">
+      <Filter>Anticheat Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowCountScan.cpp">
+      <Filter>Anticheat Modules\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsScan.cpp">
+      <Filter>Anticheat Modules\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiEmulation.cpp">
+      <Filter>Anticheat Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfRestart.cpp">
+      <Filter>Anticheat Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleScan.cpp">
+      <Filter>Anticheat Modules\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="HiddenProcessScan.cpp">
+      <Filter>Anticheat Modules\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="BetaShadow.cpp">
+      <Filter>Anticheat Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="EventLogScan.cpp">
+      <Filter>Anticheat Modules\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiThread.cpp">
+      <Filter>Anticheat Modules</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
